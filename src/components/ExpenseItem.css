@@ -1,0 +1,32 @@
+/* Estilos para los botones redondos */
+.round-button {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.green-button {
+    background-color: green;
+}
+
+.red-button {
+    background-color: red;
+}
+
+/* Estilos para el botón de eliminar */
+.delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.delete-button:hover {
+    color: red; /* Cambia el color del icono al pasar el mouse */
+}
